@@ -44,7 +44,12 @@ Great, now you're ready to load your model! Place your model (named `dogscats.pt
 
 `flask run`
 
-Now if you go to http://localhost:5000 you should be able to see a very very simple webapp! Now you can upload an image and predict the class! But it kinda looks bad, so here are the next steps to making it look more gooder:
+Now if you go to http://localhost:5000 you should be able to see a very very simple webapp! You can upload an image and predict the class! Nice.
+
+
+### Improve it!
+
+...But it kinda looks bad, so here are the next steps to making it look more gooder:
 https://docs.google.com/document/d/1uS1obu0A6CJKWx8NC8B1Ejw_6cQsub9bA6AItjyjzXY/edit?usp=sharing
 
 ### Potential problems

@@ -1,9 +1,11 @@
 # A very simple webapp
-This webapp has been setup for you to easily run a local server. But you still need to set up your local environment first.
+This webapp has been setup for you to easily run a local server. But you still need to set up your local environment first. You can preview what your app will look like at the end of my guide here: https://basilapp.xyz
 
 **NOTE**: I have not uploaded the machine learning model to this repository, as Git shouldn't really be used for large objects.
 
 ## Setup
+I recommend that you fork this to your own account first, and then clone it. This way you can push updates to your own repo!
+
 To set this up, make sure you have Python 3.7.9 installed - don't use 3.9 because certain libraries aren't available for the version yet. You can get it from here:
 https://www.python.org/downloads/release/python-379/ - be careful of your existing python installation! Might be a good idea to uninstall your old one first.
 

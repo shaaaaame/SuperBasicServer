@@ -42,7 +42,7 @@ This will read the requirements file and then install the required dependencies 
 
 ## Run it!
 
-Great, now you're ready to load your model! Place your model (named `dogscats.pt`) under a new folder called `models` and then you should be able to run:
+Great, now you're *nearly* ready to load your model!**IMPORTANT: Place your model (named `dogscats.pt`) under a new folder called `models` at the root of your project** and then you should be able to run:
 
 `flask run`
 

@@ -1,0 +1,49 @@
+body {
+    padding-top: 50px;
+}
+
+#submitButton{
+    outline: rgb(60, 60, 60) auto 5px;
+}
+
+#submitButton:hover{
+    outline: rgba(152, 152, 236, 40) auto 5px;
+    box-shadow: 5px 5px rgb(167, 186, 202); 
+}
+
+#submitButton:active{
+    background-color: rgb(170, 214, 252);
+    box-shadow: none;
+}
+ 
+.main {
+    padding: 15px 15px;
+}
+ 
+.form-upload {
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+}
+ 
+.submit-upload {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.browse-files {
+    padding: 15px;
+    margin: 0 auto;
+}
+ 
+.preview-image {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    max-width: 90%;
+    max-height: 40vh;
+}
+ 
+.text-responsive {
+    font-size: calc(80% + 1vw + 1vh);
+}

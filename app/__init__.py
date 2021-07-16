@@ -47,10 +47,10 @@ def create_app(test_config=None):
 
     #Functions -------------------------------------
 
-    @app.route('/favicon.ico')
+    @app.route('/favicon/favicon.ico')
     def favicon():
         return send_from_directory(os.path.join(app.root_path, 'static'),
-                'favicon.ico', mimetype='image/vnd.microsoft.icon')
+                '/favicon/favicon.ico', mimetype='image/vnd.microsoft.icon')
 
     '''Check if extension is allowed'''
     def allowed_file(filename):
